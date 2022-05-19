@@ -17,7 +17,7 @@ public class Aluno {
     @Id
     @CPF
     @Column(name = "cpf")
-    String cpf;
+    Integer cpf;
 
     @Column(name = "nome")
     String nome;

@@ -18,7 +18,7 @@ public class Livro {
 
     @Id
     @Column(name = "codigo")
-    String codigo;
+    Integer codigo;
 
     @Column(name = "titulo")
     String titulo;
@@ -26,7 +26,7 @@ public class Livro {
     @Column(name = "autor")
     String autor;
 
-    @Column(name = "dataCompra")
+    @Column(name = "datacompra")
     Date dataCompra;
 
 }
